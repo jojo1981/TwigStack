@@ -1,17 +1,26 @@
 {
-    "name": "aygon/twig-stack",
-    "type": "library",
+    "name":        "jojo1981/twig-stack",
+    "type":        "library",
     "description": "Twig extension which adds the possibility to push content to a stack which can be output anywhere in the template",
-    "keywords": ["templating"],
+    "keywords": [
+        "templating"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Arno Geurts",
             "role": "Lead Developer"
+        },
+        {
+            "name": "Joost Nijhuis",
+            "role": "jnijhuis81@gmail.com"
         }
     ],
+    "replace": {
+        "aygon/twig-stack": "*"
+    },
     "require": {
-        "php": ">=5.3.3",
+        "php":       ">=5.3.3",
         "twig/twig": "1.*"
     },
     "require-dev": {
