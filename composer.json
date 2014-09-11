@@ -12,8 +12,9 @@
             "role": "Lead Developer"
         },
         {
-            "name": "Joost Nijhuis",
-            "role": "jnijhuis81@gmail.com"
+            "name":  "Joost Nijhuis",
+            "email": "jnijhuis81@gmail.com",
+            "role":  "Developer"
         }
     ],
     "replace": {
